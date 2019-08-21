@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+    <script>
+      function muestraInfo(id){
+        $(".p_movil").each(function( index ) {
+          $(this).css("display", "none");
+        });
+        $(".opcion").each(function( index ) {
+          $(this).removeClass("activo");
+        });
+        $("#o"+id).addClass("activo");
+        $("#"+id).css("display", "block");
+      }
+    </script>
+
+    <title>Benjamín Dorantes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="barra-amarino d-none d-sm-block">
+        &nbsp;
+      </div>
+      <div class="row row_principal" style="padding: 0px;">
+        <div class="col-sm-4 d-none d-sm-block b-principal">
+          <div class="v-center" style="height: 160px;">
+            <img src="img/foto.png" class="foto" height="160px">
+          </div>
+          <div style="margin-top: 24px;">
+            <span class="seccion_principal">Perfil profesional</span>
+            <p class="parrafo">
+              Ingeniero en Sistemas computacionales y estudiante de licenciatura en matemáticas con ampila disponibilidad para servicio y trabajo en equipo, facilidad para aprender de forma autodidacta, respetuoso, paciente, abierto al diálogo y con capacidad de autogestión, adaptación a los cambios y solución de problemas.
+            </p>
+          </div>
+          <div class="texto" style="margin-top: 25px;">
+            <span class="seccion_principal">Datos personales</span>
+            <div class="row row_principal texto" style="margin: 0px; padding: 0px 8px;">
+              <div class="col-sm-2 v-center" style="padding: 0px;">
+                <img src="img/ico-cumple.svg" height="30px" style="margin-top: 0px">  
+              </div>
+              <div class="col-sm-10 v-center lista_i"  style="margin-top: 0px">
+                24 de octubre de 1996
+              </div>
+              <div class="col-sm-2 v-center icono">
+                <img src="img/ico-domicilio.svg" height="30px">  
+              </div>
+              <div class="col-sm-10 v-center lista_i">
+                Calle 27 #217 Int. 3, Pro Hogar, Azcapotzalco, Ciudad de México. C.P.: 02600
+              </div>
+              <div class="col-sm-2 v-center icono">
+                <img src="img/ico-telefono.svg" height="30px">  
+              </div>
+              <div class="col-sm-10 v-center lista_i">
+                55 3736 6575
+              </div>
+              <div class="col-sm-2 v-center icono">
+                <img src="img/ico-mail.svg" height="30px">  
+              </div>
+              <div class="col-sm-10 v-center lista_i" style="word-break: break-all;">
+                benjamin.dorantes@gmail.com
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 25px;">
+            <span class="seccion_principal">Idiomas</span>
+            <div class="row row_principal texto" style="margin: 0px; padding: 0px 8px;">
+              <div class="col-sm-2 v-center" style="padding: 0px;">
+                <img src="img/ico-es.svg" height="40px" style="margin-top: 0px">  
+              </div>
+              <div class="col-sm-10 v-center lista_i"  style="margin-top: 0px">
+                Nativo
+              </div>
+              <div class="col-sm-2 v-center icono">
+                <img src="img/ico-en.svg" height="40px">  
+              </div>
+              <div class="col-sm-10 v-center lista_i">
+                Comprensión lectora: Avanzado<br>
+                Comprensión auditiva: Intermedio<br>
+                Expresión escrita: Avanzado<br>
+                Expresión oral: Intermedio
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 25px;">
+            <span class="seccion_principal">Intereses</span>
+            <div class="row row_principal texto" style="margin: 0px; padding: 0px 8px; margin-top: 10px;">
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-libro.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-futbol.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-viaje.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-musica.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-tecno.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-familia.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-mexico.svg" height="40px">  
+              </div>
+              <div class="col-sm-3 v-center interes">
+                <img src="img/ico-platica.svg" height="40px">  
+              </div>
+            </div>
+          </div>
+          <div style="position: absolute; bottom: 0px; width: 100%; text-align: center; margin-bottom: 15px; color: #FFF;">
+            <span class="texto">Última actualización: agosto 2019</span>
+          </div>
+        </div>
+        <div class="col-sm-8 col-12 d-none d-sm-block row" style="margin-left: -10px;">
+          <div class="col-12 nombre v-center">
+            BENJAMÍN DORANTES GARCÍA
+          </div>
+          <div class="row" style="margin-left: -5px; padding: 15px;">
+              <div class="col-sm-12 v-center" style="justify-content: left;">
+                <img src="img/ico-academica.svg" height="30px" style="margin-right: 5px;">
+                <span class="seccion_contenido">Formación académica:</span>
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2017 - Actualidad
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Licenciatura en Matemáticas<br>Universidad Abierta y a Distancia de México
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2017
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Participante del programa de Movilidad Académica<br>Universidad Autónoma de Aguascalientes
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2014 - 2018
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Ingeniería en Sistemas Computacionales<br>Escuela Superior de Cómputo - IPN
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2011 - 2014
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Técnico en Programación<br>CECyT 9 "Juan de Dios Bátiz" - IPN
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-12 v-center" style="justify-content: left;">
+                <img src="img/ico-complementaria.svg" height="30px" style="margin-right: 5px;">
+                <span class="seccion_contenido">Formación complementaria:</span>
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2018
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Desarrollo del Trabajo Terminal <i>Sistema de programación, logística, monitoreo e información para el transporte público de ciudades y poblados de México</i>
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2015
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Taller de conversación <i>Sharing Languages</i><br>AIESEC
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2013
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Fundamentals of the Java Programming Language<br>Develop
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-12 v-center" style="justify-content: left;">
+                <img src="img/ico-laboral.svg" height="30px" style="margin-right: 5px;">
+                <span class="seccion_contenido">Experiencia laboral:</span>
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2019 - Actualidad
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Consultor web<br>Axesbehn
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2018 - 2019
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Analista programador<br>The Member-Cheap Company
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2018 - 2019
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Desarrollador web<br>Departamento de Desarrollo Docente - UnADM
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-4 lista_c">
+                2015
+              </div>
+              <div class="col-sm-8 texto" style="padding-right: 0px;">
+                Desarrollo de sistema administrativo de consultorio<br>Dentellux
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="col-sm-12 v-center" style="justify-content: left; padding-right: 0px;">
+                <img src="img/ico-herramientas.svg" height="30px" style="margin-right: 5px;">
+                <span class="seccion_contenido">Manejo de herramientas profesionales:</span>
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+              <div class="row" style="margin-left: -5px; text-align: center;">
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/ubuntu.png" width="30px"><br>
+                <div class="texto-min">Ubuntu 18.04<br>Intermedio</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/git.png" width="30px"><br>
+                <div class="texto-min">Git<br>Intermedio</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/php.png" width="30px"><br>
+                <div class="texto-min">PHP 7.2<br>Avanzado</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/laravel.png" width="30px"><br>
+                <div class="texto-min">Laravel 5<br>Intermedio</div>
+              </div>
+              <div class="col-sm-12 d-none d-sm-block d-md-none br">&nbsp;</div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/java.png" width="30px"><br>
+                <div class="texto-min">Java JDK 8<br>Intermedio</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/c.png" width="30px"><br>
+                <div class="texto-min">Lenguaje C<br>Intermedio</div>
+              </div>
+              <div class="col-sm-12 br d-none d-md-block">&nbsp;</div>
+              
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/html.png" width="30px"><br>
+                <div class="texto-min">HTML 5<br>Avanzado</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/css.png" width="30px"><br>
+                <div class="texto-min">CSS 3<br>Intermedio</div>
+              </div>
+              <div class="col-sm-12 d-none d-sm-block d-md-none br">&nbsp;</div>
+              
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/javascript.png" width="30px"><br>
+                <div class="texto-min">Javascript<br>Intermedio</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/mysql.png" width="30px"><br>
+                <div class="texto-min">MySQL<br>Intermedio</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/ps.png" width="30px"><br>
+                <div class="texto-min">Photoshop CC<br>Básico</div>
+              </div>
+              <div class="col-md-2 col-sm-3" style="padding: 0px;">
+                <img src="img/ai.png" width="30px"><br>
+                <div class="texto-min">Illustrator CC<br>Básico</div>
+              </div>
+
+              </div>
+              <div class="col-sm-12 br">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+      <!-- Versión para celulares -->
+      <div class="row_celular">
+        <div class="col-12 row b-principal v-center .d-block .d-sm-none" style="margin: 0px;">
+            <div>
+              <img src="img/foto.png" class="foto" height="160px">
+            </div>
+            <div class="col-12 nombre v-center" style="margin-bottom: 10px;">
+              BENJAMÍN DORANTES GARCÍA
+            </div>
+            <div class="col-12 row b-datos">
+              <div class="col-4" style="padding: 0px;">
+                <div id="op_profesional" class="v-center seccion_principal activo opcion" onclick="muestraInfo('p_profesional');">Perfil profesional</div>
+                <div id="op_personales" class="v-center seccion_principal opcion" onclick="muestraInfo('p_personales');">Datos personales</div>
+                <div id="op_idiomas" class="v-center seccion_principal opcion" onclick="muestraInfo('p_idiomas');">Idiomas</div>
+                <div  id="op_intereses" class="v-center seccion_principal opcion" onclick="muestraInfo('p_intereses');">Intereses</div>
+              </div>
+              <div class="col-8" style="padding-right: 10px;">
+                <div id="p_profesional" class="p_movil" style="text-align: center; height: 100%;">
+                  <div class="parrafo v-center" style="padding-right: 0px; height: 100%;">
+                    Ingeniero en Sistemas computacionales y estudiante de licenciatura en matemáticas con ampila disponibilidad para servicio y trabajo en equipo, facilidad para aprender de forma autodidacta, respetuoso, paciente, abierto al diálogo y con capacidad de autogestión, adaptación a los cambios y solución de problemas.
+                  </div>
+                </div>
+
+                <div id="p_personales" class="p_movil" style="display: none; height: 100%;">
+                  <div class="row row_principal v-center texto" style="margin: 0px; height: 100%; padding: 20px 0px;">
+                    <div class="col-2 v-center" style="padding: 0px;">
+                      <img src="img/ico-cumple.svg" height="30px" style="margin-top: 0px">  
+                    </div>
+                    <div class="col-10 v-center lista_i"  style="margin-top: 0px">
+                      24 de octubre de 1996
+                    </div>
+                    <div class="col-2 v-center icono">
+                      <img src="img/ico-domicilio.svg" height="30px">  
+                    </div>
+                    <div class="col-10 v-center lista_i">
+                      Calle 27 #217 Int. 3, Pro Hogar, Azcapotzalco, Ciudad de México. C.P.: 02600
+                    </div>
+                    <div class="col-2 v-center icono">
+                      <img src="img/ico-telefono.svg" height="30px">  
+                    </div>
+                    <div class="col-10 v-center lista_i">
+                      55 3736 6575
+                    </div>
+                    <div class="col-2 v-center icono">
+                      <img src="img/ico-mail.svg" height="30px">  
+                    </div>
+                    <div class="col-10 v-center lista_i" style="word-break: break-all; font-size: 11px;">
+                      benjamin.dorantes@gmail.com
+                    </div>
+                  </div>
+                </div>
+
+                <div id="p_idiomas" class="p_movil" style="display: none; height: 100%;">
+                  <div class="row row_principal texto" style="margin: 0px; height: 100%; padding: 32px 0px;">
+                    <div class="col-2 v-center" style="padding: 0px;">
+                      <img src="img/ico-es.svg" height="40px" style="margin-top: 0px">  
+                    </div>
+                    <div class="col-10 v-center lista_i"  style="margin-top: 0px; padding-left: 11px;">
+                      Nativo
+                    </div>
+                    <div class="col-2 v-center icono">
+                      <img src="img/ico-en.svg" height="40px">  
+                    </div>
+                    <div class="col-10 v-center lista_i" style="padding-left: 11px;">
+                      Comprensión lectora: Avanzado<br>
+                      Comprensión auditiva: Intermedio<br>
+                      Expresión escrita: Avanzado<br>
+                      Expresión oral: Intermedio
+                    </div>
+                  </div>
+                </div>
+
+                <div id="p_intereses" class="p_movil" style="display: none; height: 100%;">
+                  <div class="row row_principal texto" style="margin: 0px; height: 100%; padding: 55px 8px;">
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-libro.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-futbol.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-viaje.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-musica.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-tecno.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-familia.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-mexico.svg" height="40px">  
+                    </div>
+                    <div class="col-3 v-center interes">
+                      <img src="img/ico-platica.svg" height="40px">  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 row" style="background-color: #FFF; padding: 0px;">
+              <div id="accordion" style="width: 100%;">
+                <div class="card" style="background-color: #FFF;">
+                  <div class="contenido_collapse" id="cabeceraAcademica">
+                      <div data-toggle="collapse" data-target="#spm_academica" aria-expanded="true" aria-controls="spm_academica" style="cursor: pointer;">
+                        <img src="img/ico-academica.svg" height="30px" style="margin-right: 5px;">
+                        <span class="seccion_contenido">Formación académica</span>
+                      </div>
+                  </div>
+                  <div id="spm_academica" class="collapse" aria-labelledby="cabeceraAcademica" data-parent="#accordion">
+                    <div class="card-body row" style="width: 100%; margin: 0px; padding: 0px 15px;">
+                      <div class="col-4 lista_c">
+                        2017 - Actualidad
+                      </div>
+                      <div class="col-8 texto">
+                        Licenciatura en Matemáticas<br>Universidad Abierta y a Distancia de México
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2017
+                      </div>
+                      <div class="col-8 texto">
+                        Participante del programa de Movilidad Académica<br>Universidad Autónoma de Aguascalientes
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2014 - 2018
+                      </div>
+                      <div class="col-8 texto">
+                        Ingeniería en Sistemas Computacionales<br>Escuela Superior de Cómputo - IPN
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2011 - 2014
+                      </div>
+                      <div class="col-8 texto">
+                        Técnico en Programación<br>CECyT 9 "Juan de Dios Bátiz" - IPN
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card" style="background-color: #FFF;">
+                  <div class="contenido_collapse" id="cabeceraComplementaria">
+                      <div data-toggle="collapse" data-target="#spm_complementaria" aria-expanded="true" aria-controls="spm_complementaria" style="cursor: pointer;">
+                        <img src="img/ico-complementaria.svg" height="30px" style="margin-right: 5px;">
+                        <span class="seccion_contenido">Formación complementaria</span>
+                      </div>
+                  </div>
+                  <div id="spm_complementaria" class="collapse" aria-labelledby="cabeceraComplementaria" data-parent="#accordion">
+                    <div class="card-body row" style="width: 100%; margin: 0px; padding: 0px 15px;">
+                      <div class="col-4 lista_c">
+                        2018
+                      </div>
+                      <div class="col-8 texto">
+                        Desarrollo del Trabajo Terminal <i>Sistema de programación, logística, monitoreo e información para el transporte público de ciudades y poblados de México</i>
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2015
+                      </div>
+                      <div class="col-8 texto">
+                        Taller de conversación <i>Sharing Languages</i><br>AIESEC
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2013
+                      </div>
+                      <div class="col-8 texto">
+                        Fundamentals of the Java Programming Language<br>Develop
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card" style="background-color: #FFF;">
+                  <div class="contenido_collapse" id="cabeceraLaboral">
+                      <div data-toggle="collapse" data-target="#spm_laboral" aria-expanded="true" aria-controls="spm_laboral" style="cursor: pointer;">
+                        <img src="img/ico-laboral.svg" height="30px" style="margin-right: 5px;">
+                        <span class="seccion_contenido">Experiencia laboral</span>
+                      </div>
+                  </div>
+                  <div id="spm_laboral" class="collapse" aria-labelledby="cabeceraLaboral" data-parent="#accordion">
+                    <div class="card-body row" style="width: 100%; margin: 0px; padding: 0px 15px;">
+                      <div class="col-4 lista_c">
+                        2019 - Actualidad
+                      </div>
+                      <div class="col-8 texto">
+                        Consultor web<br>Axesbehn
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2018 - 2019
+                      </div>
+                      <div class="col-8 texto">
+                        Analista programador<br>The Member-Cheap Company
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2018 - 2019
+                      </div>
+                      <div class="col-8 texto">
+                        Desarrollador web<br>Departamento de Desarrollo Docente - UnADM
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                      <div class="col-4 lista_c">
+                        2015
+                      </div>
+                      <div class="col-8 texto">
+                        Desarrollo de sistema administrativo de consultorio<br>Dentellux
+                      </div>
+                      <div class="col-12 br">&nbsp;</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card" style="background-color: #FFF;">
+                  <div class="contenido_collapse" id="cabeceraHerramientas">
+                      <div data-toggle="collapse" data-target="#spm_herramientas" aria-expanded="true" aria-controls="spm_herramientas" style="cursor: pointer;">
+                        <img src="img/ico-herramientas.svg" height="30px" style="margin-right: 5px;">
+                        <span class="seccion_contenido">Manejo de herramientas profesionales</span>
+                      </div>
+                  </div>
+                  <div id="spm_herramientas" class="collapse" aria-labelledby="cabeceraHerramientas" data-parent="#accordion">
+                    <div class="card-body row" style="width: 100%; margin: 0px; padding: 0px 15px;">
+                      <div class="row" style="margin-left: -5px; text-align: center;">
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/ubuntu.png" width="30px"><br>
+                          <div class="texto-min">Ubuntu 18.04<br>Intermedio</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/git.png" width="30px"><br>
+                          <div class="texto-min">Git<br>Intermedio</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/php.png" width="30px"><br>
+                          <div class="texto-min">PHP 7.2<br>Avanzado</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/laravel.png" width="30px"><br>
+                          <div class="texto-min">Laravel 5<br>Intermedio</div>
+                        </div>
+                        <div class="col-12 br">&nbsp;</div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/java.png" width="30px"><br>
+                          <div class="texto-min">Java JDK 8<br>Intermedio</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/c.png" width="30px"><br>
+                          <div class="texto-min">Lenguaje C<br>Intermedio</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/html.png" width="30px"><br>
+                          <div class="texto-min">HTML 5<br>Avanzado</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/css.png" width="30px"><br>
+                          <div class="texto-min">CSS 3<br>Intermedio</div>
+                        </div>
+                        <div class="col-12 br">&nbsp;</div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/javascript.png" width="30px"><br>
+                          <div class="texto-min">Javascript<br>Intermedio</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/mysql.png" width="30px"><br>
+                          <div class="texto-min">MySQL<br>Intermedio</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/ps.png" width="30px"><br>
+                          <div class="texto-min">Photoshop CC<br>Básico</div>
+                        </div>
+                        <div class="col-3" style="padding: 0px;">
+                          <img src="img/ai.png" width="30px"><br>
+                          <div class="texto-min">Illustrator CC<br>Básico</div>
+                        </div>
+                        
+                        </div>
+                        <div class="col-12 br">&nbsp;</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 row b-datos v-center" style="text-align: center; height: 20px; padding: 0px; color: #FFF; font-size: 9px;">
+              Última actualización: agosto 2019
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
